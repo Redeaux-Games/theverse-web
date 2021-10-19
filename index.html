@@ -87,8 +87,21 @@
       in this snippet are from <a href="https://unsplash.com">Unsplash</a>, taken by <a href="https://unsplash.com/@joannakosinska">Joanna Kosinska</a>!</p>
   </div>
 </section>
+    <script>
+       window.addEventListener('load', (
+         function () {
+        document.getElementById('copyright-year').appendChild(
+            document.createTextNode(
+                new Date().getFullYear()
+            )
+        );
+    }
+));
+    </script>
 <footer>
-    <center><h6>testing it till it works</h6></center>
+    <center><h6><center>
+<h6>The Verse &copy; <span id="copyright-year"></span>, a product of <a href="https://theversegame.com" target="_blank">Redeaux Games</a>.</h6>
+</center></h6></center>
 </footer>
         <!-- Bootstrap core JS-->
         <script src="js/bootstrap.bundle.min.js"></script>
