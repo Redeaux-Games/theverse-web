@@ -70,3 +70,11 @@ height: 100%;}
   }
 }	
 /* ============ small devices .end// ============ */
+.redx {
+   -webkit-text-fill-color: transparent !important;
+   -webkit-text-fill-color: transparent !important;
+   -webkit-animation: colored 15s infinite linear !important;
+    background-image: -webkit-linear-gradient(
+1deg, #ff0000, #feab3a, #4682b4, #FFff00) !important;
+    z-index: 999 !important;
+}
