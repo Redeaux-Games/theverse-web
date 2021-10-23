@@ -141,9 +141,3 @@ h1 {
     0 0 80px #bc13fe;
 
 }
-
-@media screen and (prefers-reduced-motion) { 
-  h1 {
-    animation: none;
-  }
-}
